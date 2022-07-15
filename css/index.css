@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Rufina:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  background-color: #1e1e27;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+/* Header */
+.header {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  min-width: 600px;
+  font-size: 16px;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.nav {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.nav:hover {
+  font-weight: bold;
+  color: #0093e9;
+}
+
+.nav:hover:after {
+  width: 100%;
+  transition: 0.4s;
+}
+
+.nav:after {
+  content: "";
+  background-color: #0093e9;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+}
+
+/* content */
+.biodata {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text {
+  margin: 70px 77px 0 0;
+}
+
+img {
+  margin-right: 25px;
+}
+
+.image img {
+  height: 545px;
+  margin: 0 0;
+}
+
+h2 {
+  font-family: "Rufina", sans-serif;
+  line-height: 65px;
+  font-weight: bold;
+  color: white;
+  font-size: 48px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  margin: 30px 0;
+}
+
+.job {
+  color: #0093e9;
+  font-style: italic;
+  font-weight: bold;
+}
