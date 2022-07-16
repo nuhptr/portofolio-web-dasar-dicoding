@@ -65,10 +65,12 @@ p {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  max-width: 100%;
 }
 
 .image-one {
   margin-right: 54px;
+  max-width: 100%;
 }
 
 .description-one {
@@ -77,6 +79,7 @@ p {
   font-weight: 300;
   line-height: 34px;
   text-align: left;
+  max-width: 100%;
 }
 
 .part-two {
@@ -84,10 +87,12 @@ p {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  max-width: 100%;
 }
 
 .image-two {
   margin-left: 54px;
+  max-width: 100%;
 }
 
 .description-two {
@@ -96,6 +101,7 @@ p {
   font-weight: 300;
   line-height: 34px;
   text-align: right;
+  max-width: 100%;
 }
 
 .part-three {
@@ -103,10 +109,12 @@ p {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  max-width: 100%;
 }
 
 .image-three {
   margin-right: 54px;
+  max-width: 100%;
 }
 
 .description-three {
@@ -115,6 +123,7 @@ p {
   font-weight: 300;
   line-height: 34px;
   text-align: left;
+  max-width: 100%;
 }
 
 .part-four {
@@ -122,10 +131,12 @@ p {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  max-width: 100%;
 }
 
 .image-four {
   margin-left: 54px;
+  max-width: 100%;
 }
 
 .description-four {
@@ -133,6 +144,7 @@ p {
   font-size: 18px;
   text-align: right;
   line-height: 34px;
+  max-width: 100%;
 }
 
 footer {
@@ -143,4 +155,15 @@ footer {
   font-size: 40px;
   text-align: center;
   opacity: 70%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  header {
+    width: 100%;
+  }
+
+  .main {
+    width: 100%;
+  }
 }

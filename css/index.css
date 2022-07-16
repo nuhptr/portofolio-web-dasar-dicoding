@@ -97,3 +97,13 @@ p {
   font-style: italic;
   font-weight: bold;
 }
+
+@media screen and (max-width: 900px) {
+  .header {
+    max-width: 100%;
+  }
+
+  .biodata {
+    max-width: 100%;
+  }
+}
