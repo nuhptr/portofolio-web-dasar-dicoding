@@ -66,13 +66,12 @@ li {
   margin: 70px 77px 0 0;
 }
 
-img {
-  margin-right: 25px;
-}
 
-.image img {
-  height: 545px;
-  margin: 0 0;
+.image{
+  width: 280px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 h2 {
@@ -83,7 +82,7 @@ h2 {
   font-size: 48px;
 }
 
-p {
+.text-name {
   font-family: "Poppins", sans-serif;
   line-height: 30px;
   font-size: 18px;
@@ -96,6 +95,17 @@ p {
   color: #0093e9;
   font-style: italic;
   font-weight: bold;
+}
+
+.instagram {
+  margin-right: 20px;
+}
+
+.sub-bio {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 15px 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 900px) {
